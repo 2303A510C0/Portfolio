@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Newsletter Form Handler
+    // Newsletter Form Handler (if exists)
     const newsletterForm = document.getElementById('newsletterForm');
     if (newsletterForm) {
         newsletterForm.addEventListener('submit', function(e) {
